@@ -8,6 +8,7 @@ import Results from "./components/results";
 import Signup from "./components/signup";
 import Login from "./components/login";
 import History from "./components/history";
+import NotFound from "./components/404";
 
 class App extends Component {
   render() {
@@ -29,7 +30,7 @@ class App extends Component {
               <Route component={History} path="/history" />
               <Route component={Signup} path="/signup" />
               <Route component={Login} path="/login" />
-              {/* TODO 404 page */}
+              <Route component={NotFound} />
             </Switch>
           </>
         </Router>
