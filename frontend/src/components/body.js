@@ -42,7 +42,7 @@ class Body extends React.Component {
   normalizedRadii = () => {
     const { radii } = this.props;
     const maxRadius = max(radii);
-    return radii.map(r => (r / maxRadius) * 50);
+    return radii.map(r => (r / maxRadius) * 100);
   };
   render() {
     let offsets = this.getCircleYOffsets();
@@ -50,7 +50,7 @@ class Body extends React.Component {
     let radii = this.normalizedRadii();
     return (
       <Wrapper>
-        <svg width="100%" height="100%" viewBox="0 0 200 200">
+        <svg width="100%" height="100%">
           <linearGradient
             id="backgroundGradient"
             gradientTransform="rotate(90)"

@@ -7,6 +7,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
     }
     html {
+        height: 100%;
+        width: 100%;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -15,6 +17,10 @@ const GlobalStyle = createGlobalStyle`
         -webkit-box-sizing: inherit;
         -moz-box-sizing: inherit;
          box-sizing: inherit;
+    }
+    #root {
+        height: 100%;
+        width: 100%;
     }
 `;
 

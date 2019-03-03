@@ -8,7 +8,7 @@ import Results from "./components/results";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <>
         <Helmet>
           <link
             href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,800"
@@ -22,7 +22,7 @@ class App extends Component {
             <Route component={Results} path="/results" />
           </Switch>
         </Router>
-      </div>
+      </>
     );
   }
 }

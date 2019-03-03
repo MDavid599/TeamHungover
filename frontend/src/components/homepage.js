@@ -5,6 +5,8 @@ import BodyRepresentation from "./body";
 import MeasurementForm from "./measurement-form";
 
 const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-areas:
     "left"
