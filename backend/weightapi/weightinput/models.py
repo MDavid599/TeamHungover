@@ -81,7 +81,7 @@ class SizeCategory(models.Model):
         'Designer',
         on_delete=models.CASCADE
     )
-    category_name = models.CharField(max_length=255, unique=True)
+    category_name = models.CharField(max_length=255)
     size = models.CharField(max_length=255)
     lower_bust = models.FloatField(null=True)
     upper_bust = models.FloatField(null=True)
