@@ -72,6 +72,7 @@ class Cloth(models.Model):
         'BodySize',
         on_delete=models.CASCADE
     )
+    store_item_id = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
     link_url = models.TextField()
     image_url = models.TextField()
