@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
 import os
+from './../../../model' import Designer, SizeCategory
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('--mode', type=str, help="Mode")
@@ -22,6 +23,7 @@ def store_designer_sizes():
         designer = Designer(
             name = filename
         )
+        designer.save()
         category = ''
         update_category = True
         for line in open('./SizeCharter/' + filename,"r"):
@@ -43,6 +45,7 @@ def store_designer_sizes():
                     lower_hips = float(data[5]),
                     upper_hips = float(data[6])
                 )
+                size_category.save()
                 print(size_category)
 
 
