@@ -11,12 +11,9 @@ class Command(BaseCommand):
         run_seed(self, options['mode'])
         self.stdout.write('done.')
 
-
 def clear_data():
     for db in [Designer, SizeCategory]:
-        print(db.objects.all())
         db.objects.all().delete()
-    
 
 def store_designer_sizes(): 
     for filename in os.listdir('./weightinput/management/commands/SizeCharter'):
@@ -24,7 +21,6 @@ def store_designer_sizes():
             name = filename
         )
         designer.save()
-        print(designer.pk)
         category = ''
         update_category = True
         for line in open('./weightinput/management/commands/SizeCharter/' + filename):
@@ -34,7 +30,6 @@ def store_designer_sizes():
                 update_category = False
             elif len(line) == 0:
                 update_category = True
-                print("here")
             else:
                 data = line.split()
                 size_category = SizeCategory(
@@ -51,18 +46,6 @@ def store_designer_sizes():
                 size_category.save()
                 print(size_category)
 
-
-
-
-
-
 def run_seed(self, mode):
-    """ Seed database based on mode
-
-    :param mode: refresh / clear 
-    :return:
-    """
-    # Clear data from tables
     clear_data()
-
     store_designer_sizes()
