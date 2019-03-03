@@ -23,19 +23,69 @@ const Nav = styled.nav`
     font-size: 1.5rem;
     color: #222;
   }
+
+  .more {
+    display: inherit;
+    border: none;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 600;
+  }
+  .menu-links {
+    display: none;
+  }
+  .expanded {
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    box-shadow: 2px 2px 2px gray;
+    padding: 2rem;
+  }
+
+  @media (min-width: 800px) {
+    .more {
+      display: none;
+    }
+
+    .menu-links {
+      display: initial;
+      position: initial;
+      box-shadow: none;
+      padding: initial;
+    }
+  }
 `;
 
-const Navbar = () => (
-  <Nav>
-    <Link to="/" className="brand">
-      Fit Future
-    </Link>
-    <Link to="/">Home</Link>
-    <Link to="/history">History</Link>
-    <Link to="/measure">Add Measurement</Link>
-    <Link to="/results">Products</Link>
-    <Link to="/signup">Sign up</Link>
-  </Nav>
-);
+class Navbar extends React.Component {
+  state = {
+    expanded: false
+  };
+  toggleExpanded = () => {
+    this.setState(({ expanded }) => ({ expanded: !expanded }));
+  };
+  render() {
+    const { expanded } = this.state;
+    return (
+      <Nav>
+        <Link to="/" className="brand">
+          Fit Future
+        </Link>
+        <button href="#" className="more" onClick={this.toggleExpanded}>
+          More
+        </button>
+        <ul className={`menu-links ${expanded ? "expanded" : ""}`}>
+          <Link to="/">Home</Link>
+          <Link to="/history">History</Link>
+          <Link to="/measure">Add Measurement</Link>
+          <Link to="/results">Products</Link>
+          <Link to="/signup">Sign up</Link>
+        </ul>
+      </Nav>
+    );
+  }
+}
 
 export default Navbar;
