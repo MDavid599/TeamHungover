@@ -5,12 +5,9 @@ import GlobalStyles from "./components/styles/global";
 import Navbar from "./components/navbar";
 import Homepage from "./components/homepage";
 import Results from "./components/results";
-<<<<<<< HEAD
 import Signup from "./components/signup";
-import Login from "./components/login"
-=======
+import Login from "./components/login";
 import History from "./components/history";
->>>>>>> a9ccd593b3141e0907d95e34f321802a721de2ab
 
 class App extends Component {
   render() {
@@ -24,23 +21,17 @@ class App extends Component {
         </Helmet>
         <GlobalStyles />
         <Router>
-<<<<<<< HEAD
-          <Switch>
-            <Route component={Homepage} exact path="/" />
-            <Route component={Results} path="/results" />
-            <Route component={Signup} path="/signup" />
-            <Route component={Login} path="/login" />
-          </Switch>
-=======
           <>
             <Navbar />
             <Switch>
               <Route component={Homepage} exact path="/" />
               <Route component={Results} path="/results" />
               <Route component={History} path="/history" />
+              <Route component={Signup} path="/signup" />
+              <Route component={Login} path="/login" />
+              {/* TODO 404 page */}
             </Switch>
           </>
->>>>>>> a9ccd593b3141e0907d95e34f321802a721de2ab
         </Router>
       </>
     );
