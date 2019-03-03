@@ -43,7 +43,6 @@ def store_macy_catalog():
     for data in [coats_data, dresses_data, jackets_and_blazes_data, jeans_data, shorts_data, tops_data]:
         for datum in data:
             petite_flag = False
-            print(datum)
             size = datum["productDetails"]["SizeMap"]
             smallest_size = size[0]["sizenormal"]
             largest_size = size[-1]["sizenormal"]
@@ -62,20 +61,20 @@ def store_macy_catalog():
 
             if "typeName" in datum["productDetails"]["summary"]:
                 if datum["productDetails"]["summary"]["typeName"] == "TOP":
-                    smallest_size.filter(category__contains="top")
-                    largest_size.filter(category__contains="top")
+                    smallest_size.filter(category_name__contains="top")
+                    largest_size.filter(category_name__contains="top")
                 elif datum["productDetails"]["summary"]["typeName"] == "SHORTS":
-                    smallest_size.filter(category__contains="short")
-                    largest_size.filter(category__contains="short")
+                    smallest_size.filter(category_name__contains="short")
+                    largest_size.filter(category_name__contains="short")
                 elif datum["productDetails"]["summary"]["typeName"] == "JEANS":
-                    smallest_size.filter(category__contains="jean")
-                    largest_size.filter(category__contains="jean")
+                    smallest_size.filter(category_name__contains="jean")
+                    largest_size.filter(category_name__contains="jean")
                 elif datum["productDetails"]["summary"]["typeName"] == "JACKET":
-                    smallest_size.filter(category__contains="jacket")
-                    largest_size.filter(category__contains="jacket")
+                    smallest_size.filter(category_name__contains="jacket")
+                    largest_size.filter(category_name__contains="jacket")
                 elif datum["productDetails"]["summary"]["typeName"] == "DRESS":
-                    smallest_size.filter(category__contains="dress")
-                    largest_size.filter(category__contains="dress")
+                    smallest_size.filter(category_name__contains="dress")
+                    largest_size.filter(category_name__contains="dress")
 
             body_size = BodySize.objects.filter(
                 lower_bust = smallest_size[0].lower_bust,
@@ -86,6 +85,7 @@ def store_macy_catalog():
                 upper_hips = largest_size[0].upper_hips
             )
             price_value = 0
+            cloth = None
             if "original" in datum["productDetails"]["price"]:
                 price_value = datum["productDetails"]["price"]["original"]["pricevalue"]["low"]
             else:
@@ -103,7 +103,7 @@ def store_macy_catalog():
                     upper_hips = largest_size[0].upper_hips
                 )
                 body_size.save()
-                Cloth.objects.create(
+                cloth = Cloth(
                     designer=designer,
                     body_size=body_size,
                     store_item_id = datum["id"],
@@ -113,7 +113,7 @@ def store_macy_catalog():
                     image_url = image_url
                 )
             else:
-                Cloth.objects.create(
+                cloth = Cloth(
                     designer=designer,
                     body_size=body_size[0],
                     store_item_id = datum["id"],
@@ -122,6 +122,8 @@ def store_macy_catalog():
                     link_url = datum["productDetails"]["summary"]["productURL"],
                     image_url = image_url
                 )
+                cloth.save()
+                print(cloth)
 
 def clear_data():
     Cloth.objects.all().delete()
