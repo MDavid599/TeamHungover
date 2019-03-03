@@ -65,8 +65,17 @@ def store_macy_catalog():
                     smallest_size.filter(category__contains="top")
                     largest_size.filter(category__contains="top")
                 elif datum["productDetails"]["summary"]["typeName"] == "SHORTS":
-                    smallest_size.filter(category__contains="shorts")
-                    largest_size.filter(category__contains="shorts")
+                    smallest_size.filter(category__contains="short")
+                    largest_size.filter(category__contains="short")
+                elif datum["productDetails"]["summary"]["typeName"] == "JEANS":
+                    smallest_size.filter(category__contains="jean")
+                    largest_size.filter(category__contains="jean")
+                elif datum["productDetails"]["summary"]["typeName"] == "JACKET":
+                    smallest_size.filter(category__contains="jacket")
+                    largest_size.filter(category__contains="jacket")
+                elif datum["productDetails"]["summary"]["typeName"] == "DRESS":
+                    smallest_size.filter(category__contains="dress")
+                    largest_size.filter(category__contains="dress")
 
             body_size = BodySize.objects.filter(
                 lower_bust = smallest_size[0].lower_bust,
