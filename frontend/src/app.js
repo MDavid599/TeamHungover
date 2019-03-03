@@ -20,6 +20,7 @@ class App extends Component {
             href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,800"
             rel="stylesheet"
           />
+          <title>Fit Future</title>
         </Helmet>
         <GlobalStyles />
         <Router>
