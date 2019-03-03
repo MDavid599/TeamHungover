@@ -1,0 +1,3533 @@
+[
+        {
+            "id": 5809172,
+            "productDetails": {
+                "summary": {
+                    "name": "The North Face Heavenly Down Hooded Puffer Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/the-north-face-heavenly-down-hooded-puffer-jacket?ID=5809172",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/the-north-face-heavenly-down-hooded-puffer-jacket?ID=5809172",
+                    "description": "Hit the slopes in total comfort with the heavenly warmth of this hooded puffer jacket from The North Face.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 141,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. model height is 5'10\" and she is wearing a size small",
+                        "Hits at hips",
+                        "Dedicated hood with adjustable strings; stand collar; zipper front",
+                        "Snap-away powder skirt with gripper elastic; underarm vents",
+                        "Zip pockets at hips; zip pocket at left chest; internal zip pocket; internal goggle pocket; zip pocket with goggle wipe at wrist",
+                        "Long sleeves with elastic cuffs",
+                        "Lined",
+                        "Shop now! Discontinued style",
+                        "Shell: nylon/polyester; fill: down; hood, side panels & underarms: polyester; lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 120,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10311901_fpx.tif",
+                    "additionalImageSource": [
+                        "10462019_fpx.tif"
+                    ],
+                    "brand": "The North Face",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 162
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 270
+                        }
+                    },
+                    "pricetype": 24,
+                    "priceTypeText": "Limited-Time Special",
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-10T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=24&daysInC=17957&ID=5809172",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5169840,
+            "productDetails": {
+                "summary": {
+                    "name": "The Fur Vault Animal-Print Mink Fur Fox-Trim Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/the-fur-vault-animal-print-mink-fur-fox-trim-jacket?ID=5169840",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/the-fur-vault-animal-print-mink-fur-fox-trim-jacket?ID=5169840",
+                    "description": "Take a walk on the stylish side in The Fur Vault's animal-print mink fur jacket, richly accented with fox-fur trim.",
+                    "typeName": "JACKET",
+                    "available": true,
+                    "productStartDays": 529,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mink fur origin: Denmark; fox fur origin: Finland",
+                        "Genuine dyed, whole mink fur",
+                        "Genuine dyed, whole fox-fur trim at hood ",
+                        "Hooded",
+                        "Front zipper closure ",
+                        "Drawstring at interior waist",
+                        "Lined",
+                        "Hits at low hip; approx. length: 27\"",
+                        "Returns accepted within 30 days of receipt by mail only.  Pre-paid return label is included in your package.",
+                        "Real fur items will not be shipped to a residence, business, or P.O. Box in California because several California cities have banned the sale of real fur items.",
+                        "Real mink fur; hood trim: real fox fur; lining: polyester",
+                        "Professional fur clean only",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 69211,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "8925139_fpx.tif",
+                    "additionalImageSource": [
+                        "8925141_fpx.tif"
+                    ],
+                    "brand": "The Fur Vault",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 3397.87
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 3997.5
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 7995
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-03T18:59:59-05:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=5169840",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6397787,
+            "productDetails": {
+                "summary": {
+                    "name": "Lauren Ralph Lauren Quilted Hooded Coat",
+                    "productURL": "http://www1.macys.com/shop/product/lauren-ralph-lauren-quilted-hooded-coat?ID=6397787",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/lauren-ralph-lauren-quilted-hooded-coat?ID=6397787",
+                    "description": "Sleek suede is a chic trim to this cozy quilted puffer jacket from Lauren Ralph Lauren.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 255,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Zip-off faux suede-trimmed hood; mock neck; concealed full-zip front",
+                        "Snapped storm placket; tonal \"LRL\" patch at the left sleeve; adjustable snapped tabs at the sides of the waist; vented back hem; faux-suede trim throughout",
+                        "Two front waist snapped pockets; left chest zip pocket",
+                        "Fully lined and lightly filled",
+                        "Shell: polyester; trim: viscose/polyester/polyurethane",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "3762298_fpx.tif",
+                    "additionalImageSource": [
+                        "3762300_fpx.tif"
+                    ],
+                    "brand": "Lauren Ralph Lauren",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 149.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 245
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6397787",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6376505,
+            "productDetails": {
+                "summary": {
+                    "name": "Nautica Anorak Coat with Faux-Fur-Trim Hood",
+                    "productURL": "http://www1.macys.com/shop/product/nautica-anorak-coat-with-faux-fur-trim-hood?ID=6376505",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/nautica-anorak-coat-with-faux-fur-trim-hood?ID=6376505",
+                    "description": "Style a chic, feminine look with the faux-fur appeal of this hooded anorak from Nautica.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 205,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 31-1/2\" from center back to hem",
+                        "Faux-fur trimmed hood; zipper front with snap-button overlay",
+                        "Water resistant; drawstring at waist",
+                        "Slit pockets at hips with button detail",
+                        "Lined",
+                        "Shell: polyester/nylon; lining, fill, faux-fur back: polyester; faux fur: modacrylic/acrylic",
+                        "Dry clean only.",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9820604_fpx.tif",
+                    "brand": "Nautica",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 109.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 200
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6376505",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6422737,
+            "productDetails": {
+                "summary": {
+                    "name": "Cole Haan Signature Hooded Textured Belted Walker Coat",
+                    "productURL": "http://www1.macys.com/shop/product/cole-haan-signature-hooded-textured-belted-walker-coat?ID=6422737",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/cole-haan-signature-hooded-textured-belted-walker-coat?ID=6422737",
+                    "description": "Cozy up in the soft, textured feel of the Signature walker coat from Cole Haan.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 164,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 34-1/2\" from center back to hem",
+                        "Attached hood; zipper front",
+                        "Removable belt",
+                        "Zip pockets at hips",
+                        "Long sleeves with zipper details at cuffs",
+                        "Lined",
+                        "Shell: wool/polyester; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9740050_fpx.tif",
+                    "additionalImageSource": [
+                        "10101447_fpx.tif"
+                    ],
+                    "brand": "Cole Haan",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 189.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 340
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6422737",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6424831,
+            "productDetails": {
+                "summary": {
+                    "name": "Lauren Ralph Lauren Double-Breasted Fit & Flare Walker Coat",
+                    "productURL": "http://www1.macys.com/shop/product/lauren-ralph-lauren-double-breasted-fit-flare-walker-coat?ID=6424831",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/lauren-ralph-lauren-double-breasted-fit-flare-walker-coat?ID=6424831",
+                    "description": "A feminine take on a classic military style, this sumptuous wool-and-cashmere-blend coat from Lauren Ralph Lauren is distinguished by a stately double-breasted front and a fit-and-flare silhouette.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 198,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Fit-and-flare silhouette",
+                        "Shawl collar",
+                        "Double-breasted",
+                        "Long sleeves",
+                        "Fully lined",
+                        "Shell: wool/polyester/viscose/nylon; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "3692027_fpx.tif",
+                    "brand": "Lauren Ralph Lauren",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 189.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 209.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 300
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=6424831",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7484056,
+            "productDetails": {
+                "summary": {
+                    "name": "London Fog Petite Single-Breasted Trench Coat",
+                    "productURL": "http://www1.macys.com/shop/product/london-fog-petite-single-breasted-trench-coat?ID=7484056",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/london-fog-petite-single-breasted-trench-coat?ID=7484056",
+                    "description": "This London Fog petite single-breasted trench coat features a long length for extra coverage when the temperature dips and removable hood and belt for added versatility.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 51,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. 47\" long from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Club collar",
+                        "Button front closure with removeable belt",
+                        "Removable hood",
+                        "Two pockets",
+                        "Water repellent ",
+                        "Lined",
+                        "cotton/polyester; lining: 100% polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11270262_fpx.tif",
+                    "additionalImageSource": [
+                        "11289978_fpx.tif"
+                    ],
+                    "brand": "London Fog",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 194.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 220
+                        }
+                    },
+                    "pricetype": 4,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=4&daysInC=17957&ID=7484056",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "P/XS",
+                        "sequenceNumber": 1322
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "P/M",
+                        "sequenceNumber": 2102
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "P/L",
+                        "sequenceNumber": 2682
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "P/XL",
+                        "sequenceNumber": 3298
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/XXL",
+                        "sequenceNumber": 3821
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6422897,
+            "productDetails": {
+                "summary": {
+                    "name": "MICHAEL Michael Kors Petite Hooded Belted Softshell Coat",
+                    "productURL": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-belted-softshell-coat?ID=6422897",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-belted-softshell-coat?ID=6422897",
+                    "description": "Pair your fav outfit with the easy styling of this belted softshell coat from MICHAEL Michael Kors. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 199,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 33\" from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Attached hood with adjustable strings; stand collar; zipper front with snap-button overlay",
+                        "Water resistant; removable belt",
+                        "Zip pockets at hips",
+                        "Lined",
+                        "Shell: polyester/spandex; lining & fill: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 57535,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9845595_fpx.tif",
+                    "brand": "Michael Kors",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 149.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 240
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6422897",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "P/XS",
+                        "sequenceNumber": 1322
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "P/M",
+                        "sequenceNumber": 2102
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "P/L",
+                        "sequenceNumber": 2682
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "P/XL",
+                        "sequenceNumber": 3298
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/XXL",
+                        "sequenceNumber": 3821
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4749728,
+            "productDetails": {
+                "summary": {
+                    "name": "Jones New York Maxi Flyaway Coat",
+                    "productURL": "http://www1.macys.com/shop/product/jones-new-york-maxi-flyaway-coat?ID=4749728",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/jones-new-york-maxi-flyaway-coat?ID=4749728",
+                    "description": "A single button near the neckline creates a stylish flyaway silhouette for Jones New York's maxi coat, a design still layered enough to keep you cozy.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 629,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Point collar",
+                        "Button closure at neckline; flyaway front",
+                        "Slit pockets at hip",
+                        "Lined ",
+                        "Mid-weight ",
+                        "Hits above ankle; approx. 50\" long",
+                        "Polyester/wool/alpaca; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "8532838_fpx.tif",
+                    "additionalImageSource": [
+                        "8532839_fpx.tif"
+                    ],
+                    "brand": "Jones New York",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 229.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 269.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 460
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=4749728",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "10",
+                        "sequenceNumber": 22000
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "12",
+                        "sequenceNumber": 25500
+                    },
+                    {
+                        "sizeid": 7,
+                        "sizenormal": "14",
+                        "sequenceNumber": 28600
+                    },
+                    {
+                        "sizeid": 8,
+                        "sizenormal": "16",
+                        "sequenceNumber": 31500
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8169921,
+            "productDetails": {
+                "summary": {
+                    "name": "Columbia Norwalk Mountain Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/columbia-norwalk-mountain-jacket?ID=8169921",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/columbia-norwalk-mountain-jacket?ID=8169921",
+                    "description": "The Norwalk Mountain jacket from Columbia has every outdoor ready technical construction you need to help stay warm and dry in the elements\u0097 a drawcord adjustable hood and waist, zippered hand pockets and waterproof fabric deliver all the technical weather protection you need to make it through any storm.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 29,
+                    "isNew": true,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. model measurements: height: 5'9\"; bust: 32\"; waist: 24\"; hips: 35\"",
+                        "Approx. 28\" long from center back to hem",
+                        "INSPIRED FOR: Hiking/outdoor",
+                        "Adjustable drawstring hood; front zipper closure",
+                        "Waterproof; adjustable stay-put closures at cuffs; drawstring at waist",
+                        "Front zipper pockets",
+                        "Mesh lining",
+                        "Shell: nylon/polyester; lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11605566_fpx.tif",
+                    "brand": "Columbia",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 79.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 110
+                        }
+                    },
+                    "pricetype": 24,
+                    "priceTypeText": "Limited-Time Special",
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-10T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=24&daysInC=17957&ID=8169921",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6422408,
+            "productDetails": {
+                "summary": {
+                    "name": "Anne Klein Fox-Fur-Trim Hooded Walker Coat",
+                    "productURL": "http://www1.macys.com/shop/product/anne-klein-fox-fur-trim-hooded-walker-coat?ID=6422408",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/anne-klein-fox-fur-trim-hooded-walker-coat?ID=6422408",
+                    "description": "Elevate your style with the luxurious feel of fox fur when you layer on this wonderfully chic walker coat from Anne Klein.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 158,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Fur country of origin: China",
+                        "Genuine dyed; whole fox fur trim",
+                        "Long length; approx. length: 49\" from center back to hem",
+                        "Attached hood with fox-fur trim; single-breasted button closures",
+                        "Slit pockets at hips",
+                        "Lined",
+                        "eal fur items will not be shipped to a residence, business, or P.O. Box in California because several California cities have banned the sale of real fur items.",
+                        "Shell: wool/polyester; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10282981_fpx.tif",
+                    "brand": "Anne Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 309.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 419.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 600
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=6422408",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6380585,
+            "productDetails": {
+                "summary": {
+                    "name": "Anne Klein Notch-Collar Leather Blazer Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/anne-klein-notch-collar-leather-blazer-jacket?ID=6380585",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/anne-klein-notch-collar-leather-blazer-jacket?ID=6380585",
+                    "description": "The supple feel of soft leather enhances the chic silhouette of this classic blazer jacket from Anne Klein. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 186,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 32\" from center back to hem",
+                        "Notch collar; single-breasted button closures",
+                        "Slit pockets at hips",
+                        "Lined",
+                        "Shell: leather; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10149939_fpx.tif",
+                    "additionalImageSource": [
+                        "10149941_fpx.tif"
+                    ],
+                    "brand": "Anne Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 319.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 420
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6380585",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6454260,
+            "productDetails": {
+                "summary": {
+                    "name": "Anne Klein Petite Single-Breasted Coat",
+                    "productURL": "http://www1.macys.com/shop/product/anne-klein-petite-single-breasted-coat?ID=6454260",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/anne-klein-petite-single-breasted-coat?ID=6454260",
+                    "description": "A wonderfully warm and soft design lends comfort to the elegant styling of this petite coat from Anne Klein, complete with a notched collar and long length.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 181,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 47\" from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Notch collar; single-breasted button closures",
+                        "Slit pockets at hips",
+                        "Long sleeves with button details at cuffs",
+                        "Lined",
+                        "Shell: wool/nylon/cashmere; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 57535,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10005612_fpx.tif",
+                    "brand": "Anne Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 249.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 420
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6454260",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2P",
+                        "sequenceNumber": 7835
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "12P",
+                        "sequenceNumber": 25980
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4955083,
+            "productDetails": {
+                "summary": {
+                    "name": "The North Face Resolve Windproof Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/the-north-face-resolve-windproof-jacket?ID=4955083",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/the-north-face-resolve-windproof-jacket?ID=4955083",
+                    "description": "A breathable mesh lining keeps you cool and dry no matter where adventure takes you in this windproof, waterproof jacket from The North Face. ",
+                    "typeName": "JACKET",
+                    "available": true,
+                    "productStartDays": 399,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approximate model measurements: height: 5'9\"; bust: 32\"; waist: 25\"; hips: 35\" ",
+                        "Zipper front with interior stormflap",
+                        "Lined",
+                        "Hits at hips; approx. 27\" long",
+                        "Water resistant zip pockets at hips",
+                        "Stand collar; fully adjustable stowable hood",
+                        "Seam sealed; windproof; elastic-bound cuffs; hem cinch-cord",
+                        "Polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 120,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9321324_fpx.tif",
+                    "additionalImageSource": [
+                        "10462069_fpx.tif"
+                    ],
+                    "brand": "The North Face",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricevalue": {
+                            "low": 99
+                        }
+                    },
+                    "pricetype": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6376621,
+            "productDetails": {
+                "summary": {
+                    "name": "Jones New York Faux-Fur Coat",
+                    "productURL": "http://www1.macys.com/shop/product/jones-new-york-faux-fur-coat?ID=6376621",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/jones-new-york-faux-fur-coat?ID=6376621",
+                    "description": "Luxurious faux fur keeps you in supreme style with this wonderfully chic coat from Jones New York.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 226,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 35\" from center back to hem",
+                        "Wing collar; clasp closure",
+                        "Slit pockets at hips",
+                        "Lined",
+                        "Shell, lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9842370_fpx.tif",
+                    "brand": "Jones New York",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 234.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 340
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6376621",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6423079,
+            "productDetails": {
+                "summary": {
+                    "name": "London Fog Petite Hooded Raincoat",
+                    "productURL": "http://www1.macys.com/shop/product/london-fog-petite-hooded-raincoat?ID=6423079",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/london-fog-petite-hooded-raincoat?ID=6423079",
+                    "description": "London Fog's petite raincoat is a sleek layer styled with snaps at the front and a weather-ready hood.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 219,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 32\" from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Attached hood; snap closures at front",
+                        "Waterproof",
+                        "Two pockets at front",
+                        "Lined",
+                        "Shell, lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 57535,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9820203_fpx.tif",
+                    "brand": "London Fog",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 139.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 200
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6423079",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "P/XS",
+                        "sequenceNumber": 1322
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "P/L",
+                        "sequenceNumber": 2682
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/XXL",
+                        "sequenceNumber": 3821
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7621213,
+            "productDetails": {
+                "summary": {
+                    "name": "Lauren Ralph Lauren Belted Trench Coat",
+                    "productURL": "http://www1.macys.com/shop/product/lauren-ralph-lauren-belted-trench-coat?ID=7621213",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/lauren-ralph-lauren-belted-trench-coat?ID=7621213",
+                    "description": "A removable self-tie belt and double-breasted button closures at the front lend a timeless quality to this trench coat from Lauren Ralph Lauren.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 18,
+                    "isNew": true,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. 36\" long from center back to hem",
+                        "Notched collar; front double-breasted button closures",
+                        "Removable belt",
+                        "Two pockets at front",
+                        "Lined",
+                        "Shell: cotton/polyester; lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11688390_fpx.tif",
+                    "additionalImageSource": [
+                        "11688389_fpx.tif"
+                    ],
+                    "brand": "Lauren Ralph Lauren",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricevalue": {
+                            "low": 129
+                        }
+                    },
+                    "pricetype": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6559808,
+            "productDetails": {
+                "summary": {
+                    "name": "Vince Camuto Twill Cool Faux-Leather-Trim Coat",
+                    "productURL": "http://www1.macys.com/shop/product/vince-camuto-twill-cool-faux-leather-trim-coat?ID=6559808",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/vince-camuto-twill-cool-faux-leather-trim-coat?ID=6559808",
+                    "description": "Chic faux leather and a bold, stylish belt elevates the appeal of the Twill Cool coat from Vince Camuto.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 221,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; Approx. length: 36\" from center back to hem",
+                        "Stand collar; zipper front",
+                        "Removable belt; faux-leather trim details",
+                        "Zip pockets at hips",
+                        "Lined",
+                        "Wool/polyester/acrylic/nylon/rayon; lining: polyester; faux leather: polyurethane/rayon",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "3833888_fpx.tif",
+                    "brand": "Vince Camuto",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 159.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 275
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6559808",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6345445,
+            "productDetails": {
+                "summary": {
+                    "name": "Forecaster Fox Fur-Collar Maxi Coat",
+                    "productURL": "http://www1.macys.com/shop/product/forecaster-fox-fur-collar-maxi-coat?ID=6345445",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/forecaster-fox-fur-collar-maxi-coat?ID=6345445",
+                    "description": "The rich, soft feel of fox fur enhances the classic style of this comfy maxi coat from Forecaster.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 297,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Fox fur origin: Finland",
+                        "Genuine dyed; pieced fox fur at collar",
+                        "Hits below knee; approx. 48\" long",
+                        "Fox fur collar; single button-front closure",
+                        "Slit pockets at hips; cell pocket in lining",
+                        "Lined",
+                        "eal fur items will not be shipped to a residence, business, or P.O. Box in California because several California cities have banned the sale of real fur items.",
+                        "Shell: wool/polyester/viscose; lining: polyester;  real fur dyed fox",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9643499_fpx.tif",
+                    "additionalImageSource": [
+                        "9661220_fpx.tif",
+                        "9661230_fpx.tif"
+                    ],
+                    "brand": "Forecaster",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 309.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 399.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 580
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=6345445",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "10",
+                        "sequenceNumber": 22000
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7481684,
+            "productDetails": {
+                "summary": {
+                    "name": "kate spade new york Bow-Quilted Coat",
+                    "productURL": "http://www1.macys.com/shop/product/kate-spade-new-york-bow-quilted-coat?ID=7481684",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/kate-spade-new-york-bow-quilted-coat?ID=7481684",
+                    "description": "A sophisticated design is stitched onto this cozy, hooded coat from kate spade new york. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 65,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 32\" from center back to hem",
+                        "Attached hood with adjustable strings; zipper front",
+                        "Zip pockets at hips",
+                        "Lined",
+                        "Shell, lining, and insulation: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11030743_fpx.tif",
+                    "additionalImageSource": [
+                        "11146075_fpx.tif"
+                    ],
+                    "brand": "kate spade new york",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricevalue": {
+                            "low": 208
+                        }
+                    },
+                    "pricetype": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6916580,
+            "productDetails": {
+                "summary": {
+                    "name": "Alfani Plus Size Faux-Fur Coat, Created for Macy's",
+                    "productURL": "http://www1.macys.com/shop/product/alfani-plus-size-faux-fur-coat-created-for-macys?ID=6916580",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/alfani-plus-size-faux-fur-coat-created-for-macys?ID=6916580",
+                    "description": "Spoil yourself with lavish faux fur in this plus size coat from Alfani, patterned in vintage-inspired chevron stripes.",
+                    "typeName": "JACKET",
+                    "available": true,
+                    "productStartDays": 113,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Model is wearing size 2X",
+                        "Hits at hip; approx. length: 26-7/8\" ",
+                        "Crew neckline; hook and eye closures at front",
+                        "Faux-fur finish",
+                        "Lined",
+                        "Created for Macy's",
+                        "Faux fur: acrylic/modacrylic/polyester; lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 46203,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10749176_fpx.tif",
+                    "additionalImageSource": [
+                        "10749179_fpx.tif"
+                    ],
+                    "brand": "Alfani",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 94.75
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 189.5
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6916580",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "0X",
+                        "sequenceNumber": 5435
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "1X",
+                        "sequenceNumber": 6390
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "2X",
+                        "sequenceNumber": 8000
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6461564,
+            "productDetails": {
+                "summary": {
+                    "name": "Jou Jou Juniors' Faux-Fur-Lined Moto Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/jou-jou-juniors-faux-fur-lined-moto-jacket?ID=6461564",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/jou-jou-juniors-faux-fur-lined-moto-jacket?ID=6461564",
+                    "description": "Jou Jou lets you rock your inner biker gal in this faux-leather moto jacket, styled with a cozy faux-fur lining and tons of zipper pockets.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 239,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 20-1/2\" from center back to hem",
+                        "Band collar with buckle; front zipper closure",
+                        "Allover faux leather",
+                        "Zipper pockets at chest and waist",
+                        "Faux fur lining",
+                        "Shell: polyurethane; lining: polyester",
+                        "Spot clean only",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9766598_fpx.tif",
+                    "brand": "Jou Jou",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 29.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 39.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 69.5
+                        }
+                    },
+                    "pricetype": 24,
+                    "priceTypeText": "Limited-Time Special",
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-03T18:59:59-05:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=24&daysInC=17957&ID=6461564",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7475292,
+            "productDetails": {
+                "summary": {
+                    "name": "French Connection Asymmetrical Hooded Anorak",
+                    "productURL": "http://www1.macys.com/shop/product/french-connection-asymmetrical-hooded-anorak?ID=7475292",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/french-connection-asymmetrical-hooded-anorak?ID=7475292",
+                    "description": "A chic asymmetrical design is accented by a gleaming zipper on this stylish hooded anorak from French Connection, complete with a drawstring to cinch the waist.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 65,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Hits at thigh",
+                        "Wide collar with hood; front zipper closure",
+                        "Asymmetrical front; drawstring at waist",
+                        "Zipper pocket at sleeve",
+                        "Lined",
+                        "Shell, lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11244505_fpx.tif",
+                    "additionalImageSource": [
+                        "11387200_fpx.tif"
+                    ],
+                    "brand": "French Connection",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 134.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 150
+                        }
+                    },
+                    "pricetype": 4,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=4&daysInC=17957&ID=7475292",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7122979,
+            "productDetails": {
+                "summary": {
+                    "name": "Calvin Klein Shearling Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/calvin-klein-shearling-jacket?ID=7122979",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/calvin-klein-shearling-jacket?ID=7122979",
+                    "description": "Calvin Klein keeps you warm and chic in this shearling jacket, styled in a short silhouette with a bold shawl collar and trimmed cuffs.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 116,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Fur origin: Turkey",
+                        "Genuine dyed, whole shearling lamb fur",
+                        "Mid length",
+                        "Shawl collar; hook-and-eye closure at front ",
+                        "Lined",
+                        "100% Lamb Shearling",
+                        "Clean by leather specialist only",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10789398_fpx.tif",
+                    "brand": "Calvin Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 1317
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 1646.25
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 2195
+                        }
+                    },
+                    "pricetype": 1,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-03T18:59:59-05:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=1&daysInC=17957&ID=7122979",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6398290,
+            "productDetails": {
+                "summary": {
+                    "name": "Vince Camuto Faux-Fur-Trim Hooded Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/vince-camuto-faux-fur-trim-hooded-puffer-coat?ID=6398290",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/vince-camuto-faux-fur-trim-hooded-puffer-coat?ID=6398290",
+                    "description": "Faux fur beautifully frames your face in this wonderfully cozy puffer coat from Vince Camuto. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 172,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 37\" from center back to hem",
+                        "Attached hood with faux-fur trim; zipper front",
+                        "Inner bib",
+                        "Zip pockets at hips",
+                        "Long sleeves with knit cuffs",
+                        "Lined",
+                        "Shell, lining & fill: polyester; knit trim: acrylic ; faux fur: acrylic/polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10155464_fpx.tif",
+                    "brand": "Vince Camuto",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 149.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 275
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6398290",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7483150,
+            "productDetails": {
+                "summary": {
+                    "name": "32 Degrees Hooded Cinched-Waist Anorak Raincoat",
+                    "productURL": "http://www1.macys.com/shop/product/32-degrees-hooded-cinched-waist-anorak-raincoat?ID=7483150",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/32-degrees-hooded-cinched-waist-anorak-raincoat?ID=7483150",
+                    "description": "Unzip the protective hood of this water-resistant anorak from 32 Degrees when the weather takes a turn for the worst. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 87,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 34-3/4\" from center back to hem",
+                        "Stowaway hood; stand collar; zipper front",
+                        "Water resistant; cinched waist; rainflap",
+                        "Slit pockets at hips",
+                        "Lined",
+                        "Shell & lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10984275_fpx.tif",
+                    "additionalImageSource": [
+                        "10984290_fpx.tif"
+                    ],
+                    "brand": "32 Degrees",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 74.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 100
+                        }
+                    },
+                    "pricetype": 24,
+                    "priceTypeText": "Limited-Time Special",
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-03T18:59:59-05:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=24&daysInC=17957&ID=7483150",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6397830,
+            "productDetails": {
+                "summary": {
+                    "name": "Kendall + Kylie Cropped Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/kendall-kylie-cropped-puffer-coat?ID=6397830",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/kendall-kylie-cropped-puffer-coat?ID=6397830",
+                    "description": "An oversized collar and a cropped fit make this modern puffer coat from Kendall + Kylie an essential layer for your fashion-forward style.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 228,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 25\" from center back to hem",
+                        "Oversized collar; zipper closure at front",
+                        "Pockets at hips",
+                        "Shell, lining, fill: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9684627_fpx.tif",
+                    "additionalImageSource": [
+                        "10388720_fpx.tif",
+                        "10388721_fpx.tif",
+                        "10388722_fpx.tif"
+                    ],
+                    "brand": "Kendall + Kylie",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricevalue": {
+                            "low": 190
+                        }
+                    },
+                    "pricetype": 0,
+                    "onsale": false,
+                    "onEdv": false,
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6343904,
+            "productDetails": {
+                "summary": {
+                    "name": "Marc New York Faux-Fur-Trim Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/marc-new-york-faux-fur-trim-puffer-coat?ID=6343904",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/marc-new-york-faux-fur-trim-puffer-coat?ID=6343904",
+                    "description": "Chic faux fur trims the removable hood on this Marc New York puffer coat, a seriously cozy pick styled with two zipper pockets and a waterproof finish.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 214,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 30-1/2\" from center back to hem",
+                        "Removable hood with faux-fur trim; stand collar; front zipper closure",
+                        "Water resistant ",
+                        "Two zipper pockets at front",
+                        "Lined",
+                        "Shell, lining: polyester; fill: polyester; faux fur: acrylic/modacrylic/polyester",
+                        "Jacket: machine washable; faux-fur trim: dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9689101_fpx.tif",
+                    "brand": "Marc New York",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 119.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 139.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 240
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=6343904",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6397642,
+            "productDetails": {
+                "summary": {
+                    "name": "Laundry by Shelli Segal Fleece-Lined Hooded Coat",
+                    "productURL": "http://www1.macys.com/shop/product/laundry-by-shelli-segal-fleece-lined-hooded-coat?ID=6397642",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/laundry-by-shelli-segal-fleece-lined-hooded-coat?ID=6397642",
+                    "description": "Designed with a soft sherpa fleece lining, this quilted coat from Laundry by Shelli Segal is styled with a weather-ready hood and waterproof finish.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 226,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 27-1/2\" from center back to hem",
+                        "Stand collar with removable hood; front zipper closure with snap button overlay",
+                        "Waterproof; faux-suede patches at shoulders",
+                        "Two button pockets at front",
+                        "Fleece lining",
+                        "Shell, lining, trim: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9820674_fpx.tif",
+                    "brand": "Laundry by Shelli Segal",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 104.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 180
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6397642",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6375697,
+            "productDetails": {
+                "summary": {
+                    "name": "MICHAEL Michael Kors Petite Hooded Packable Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-packable-puffer-coat?ID=6375697",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-packable-puffer-coat?ID=6375697",
+                    "description": "Cozy up to this petite puffer coat from MICHAEL Michael Kors, designed with a removable hood accented by a stand collar and finished with an elongated hem.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 192,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 33\" from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Removable hood with stand collar; front zipper closure",
+                        "Two pockets at waist",
+                        "Lined",
+                        "Shell, lining: nylon; fill: down/feathers; hood fill: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 57535,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9912671_fpx.tif",
+                    "additionalImageSource": [
+                        "9917322_fpx.tif"
+                    ],
+                    "brand": "Michael Kors",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 189.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 240
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6375697",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/XS",
+                        "sequenceNumber": 1322
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7883502,
+            "productDetails": {
+                "summary": {
+                    "name": "Calvin Klein Hooded Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/calvin-klein-hooded-puffer-coat?ID=7883502",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/calvin-klein-hooded-puffer-coat?ID=7883502",
+                    "description": "Cozy up to this stylish puffer coat from Calvin Klein, designed with a stand collar and removable hood for a versatile pick.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 87,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 28\" from center back to hem",
+                        "Stand collar with removable hood; front zipper closure with snap button overlay",
+                        "Two zipper pockets at hips",
+                        "Knit thumbhiole storm cuffs",
+                        "Lined",
+                        "Shell, lining: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11244923_fpx.tif",
+                    "brand": "Calvin Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 99.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 225
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=7883502",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4734459,
+            "productDetails": {
+                "summary": {
+                    "name": "Jones New York Walker Coat with Faux-Fur Scarf",
+                    "productURL": "http://www1.macys.com/shop/product/jones-new-york-walker-coat-with-faux-fur-scarf?ID=4734459",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/jones-new-york-walker-coat-with-faux-fur-scarf?ID=4734459",
+                    "description": "Jones New York's walker coat is a classic cold-weather essential. When the conditions call for a little extra warmth, add the included faux-fur scarf to cozy up the neckline!",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 634,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Stand collar with removable fake-fur scarf included",
+                        "Button closure at front",
+                        "Slit pockets at hips  ",
+                        "Lined",
+                        "Medium weight",
+                        "Hits at knee; approx. length: 40\"",
+                        "Polyester/wool/alpaca; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9776550_fpx.tif",
+                    "brand": "Jones New York",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 169.99
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 239.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 400
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=4734459",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "12",
+                        "sequenceNumber": 25500
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "14",
+                        "sequenceNumber": 28600
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6375661,
+            "productDetails": {
+                "summary": {
+                    "name": "MICHAEL Michael Kors Petite Hooded Quilted Packable Puffer Coat",
+                    "productURL": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-quilted-packable-puffer-coat?ID=6375661",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/michael-michael-kors-petite-hooded-quilted-packable-puffer-coat?ID=6375661",
+                    "description": "Wonderfully warm down curves with your silhouette in this chic petite puffer coat from MICHAEL Michael Kors.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 203,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Short length; approx. length: 27\" from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Removable hood; stand collar; asymmetrical zipper front",
+                        "Quilted panels at sides",
+                        "Zip pockets at hips",
+                        "Lined",
+                        "Shell & lining: nylon; fill: down/feathers; hood fill: polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 57535,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "brand": "Michael Kors",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 149.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 190
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6375661",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7484011,
+            "productDetails": {
+                "summary": {
+                    "name": "MICHAEL Michael Kors Petite Double-Breasted Trench Coat",
+                    "productURL": "http://www1.macys.com/shop/product/michael-michael-kors-petite-double-breasted-trench-coat?ID=7484011",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/michael-michael-kors-petite-double-breasted-trench-coat?ID=7484011",
+                    "description": "Classic double-breasted styling, including a removable belt, make this chic petite trench coat from MICHAEL Michael Kors your new chilly-weather favorite.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 52,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": true,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. 32\" long from center back to hem",
+                        "Designed to fit and flatter 5'4\" and under frame",
+                        "Zip front with button overlay and removable belt",
+                        "Two side pockets with button closure",
+                        "Lined",
+                        "cotton/polyester; lining: 100% polyester",
+                        "Machine washable",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10973640_fpx.tif",
+                    "brand": "Michael Kors",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 179.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Reg.",
+                        "pricevalue": {
+                            "low": 200
+                        }
+                    },
+                    "pricetype": 4,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-04-07T19:59:59-04:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=4&daysInC=17957&ID=7484011",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "P/XS",
+                        "sequenceNumber": 1322
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "P/S",
+                        "sequenceNumber": 1703
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "P/M",
+                        "sequenceNumber": 2102
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "P/L",
+                        "sequenceNumber": 2682
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "P/XL",
+                        "sequenceNumber": 3298
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "P/XXL",
+                        "sequenceNumber": 3821
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6431480,
+            "productDetails": {
+                "summary": {
+                    "name": "DKNY Single-Breasted Walker Coat, Created for Macy's",
+                    "productURL": "http://www1.macys.com/shop/product/dkny-single-breasted-walker-coat-created-for-macys?ID=6431480",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/dkny-single-breasted-walker-coat-created-for-macys?ID=6431480",
+                    "description": "Create a timeless look with this walker coat from DKNY, sleek and streamlined with a stand collar and single-breasted front.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 221,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 36\" from center back to hem",
+                        "Stand collar; front button closures",
+                        "Two welt pockets at front; one interior pocket",
+                        "Lined",
+                        "The Menswear Jacket featured on The It List",
+                        "Created for Macy's",
+                        "Shell: wool/polyester; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9940295_fpx.tif",
+                    "brand": "DKNY",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 149.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 360
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6431480",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "2",
+                        "sequenceNumber": 7400
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "4",
+                        "sequenceNumber": 11200
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "6",
+                        "sequenceNumber": 14700
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "8",
+                        "sequenceNumber": 18400
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "14",
+                        "sequenceNumber": 28600
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "16",
+                        "sequenceNumber": 31500
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6461566,
+            "productDetails": {
+                "summary": {
+                    "name": "Jou Jou Juniors' Faux-Fur-Lined Moto Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/jou-jou-juniors-faux-fur-lined-moto-jacket?ID=6461566",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/jou-jou-juniors-faux-fur-lined-moto-jacket?ID=6461566",
+                    "description": "A playful faux-fur lining peeks out from the collar, cuffs and hem on this eternally cool faux-leather moto jacket from Jou Jou.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 172,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. length: 24-1/2\" from center back to hem",
+                        "Notched collar; front zipper closure",
+                        "Faux-fur trim at collar, cuffs and hem; faux-leather shell",
+                        "Four zipper pockets at front",
+                        "Faux-fur lining",
+                        "Shell: polyvinyl chloride/polyurethane; faux-fur lining: polyester",
+                        "Spot clean only",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "9919109_fpx.tif",
+                    "brand": "Jou Jou",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 49.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 89.5
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6461566",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6380584,
+            "productDetails": {
+                "summary": {
+                    "name": "Anne Klein Point-Collar Leather Jacket",
+                    "productURL": "http://www1.macys.com/shop/product/anne-klein-point-collar-leather-jacket?ID=6380584",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/anne-klein-point-collar-leather-jacket?ID=6380584",
+                    "description": "The soft, supple feel of leather completes the classic styling of this jacket from Anne Klein.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 175,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 32\" from center back to hem",
+                        "Point collar; zipper front",
+                        "Slit pockets at hips",
+                        "Lined",
+                        "Shell: leather; lining: polyester",
+                        "Professional leather clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10149949_fpx.tif",
+                    "brand": "Anne Klein",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 324.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 420
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6380584",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7461077,
+            "productDetails": {
+                "summary": {
+                    "name": "I.N.C. Belted Ponte-Knit Coat, Created for Macy's ",
+                    "productURL": "http://www1.macys.com/shop/product/inc-belted-ponte-knit-coat-created-for-macys-?ID=7461077",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/i.n.c.-belted-ponte-knit-coat-created-for-macys?ID=7461077",
+                    "description": "Sleek and streamlined, this effortless ponte-knit coat from I.N.C. International Concepts has a flattering wrap fit, with belted and buckled details to make the look modern. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 57,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Approx. model height is 5'10\" and she is wearing a size small",
+                        "Hits below hip; approx. length: 30\"",
+                        "Shawl collar; hidden snap closure; belted at waist ",
+                        "Front pockets ",
+                        "Double buckles at cuffs",
+                        "Created for Macy's ",
+                        "Shell: 100% cotton; lining: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "11436834_fpx.tif",
+                    "additionalImageSource": [
+                        "11436837_fpx.tif",
+                        "11436838_fpx.tif"
+                    ],
+                    "brand": "INC International Concepts",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 79.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 149.5
+                        }
+                    },
+                    "pricetype": 7,
+                    "priceTypeText": "New Markdown",
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=7461077",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "XS",
+                        "sequenceNumber": 1320
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 5,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    },
+                    {
+                        "sizeid": 6,
+                        "sizenormal": "XXL",
+                        "sequenceNumber": 3820
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7083957,
+            "productDetails": {
+                "summary": {
+                    "name": "The Fur Vault Mink-Fur-Trim Shearling Lamb Coat",
+                    "productURL": "http://www1.macys.com/shop/product/the-fur-vault-mink-fur-trim-shearling-lamb-coat?ID=7083957",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/the-fur-vault-mink-fur-trim-shearling-lamb-coat?ID=7083957",
+                    "description": "The Fur Vault's chic shearling lamb coat is updated with soft mink fur trim at the collar and cuffs.",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 134,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Fur origin lamb: Spain; mink: Denmark",
+                        "Genuine dyed, whole lamb and mink fur",
+                        "Approx. length: 35\" from center back to hem",
+                        "Mink fur stand collar; magnet and button closures at front",
+                        "Mink fur at cuffs",
+                        "Two slit pockets",
+                        "Unlined",
+                        "Real fur items will not be shipped to a residence, business, or P.O. Box in California because several California cities have banned the sale of real fur items.",
+                        "Shearling lamb",
+                        "Professional fur clean only",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 69211,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10482213_fpx.tif",
+                    "brand": "The Fur Vault",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Sale",
+                        "pricevalue": {
+                            "low": 2376.59
+                        }
+                    },
+                    "intermediatePrice": {
+                        "pricelabel": "Was",
+                        "pricevalue": {
+                            "low": 2795.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 3995
+                        }
+                    },
+                    "pricetype": 6,
+                    "onsale": true,
+                    "onEdv": false,
+                    "saleends": "2019-03-03T18:59:59-05:00",
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=6&daysInC=17957&ID=7083957",
+                    "pricingpolicyText": "\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "S",
+                        "sequenceNumber": 1700
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "M",
+                        "sequenceNumber": 2100
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "L",
+                        "sequenceNumber": 2680
+                    },
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "XL",
+                        "sequenceNumber": 3295
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6497246,
+            "productDetails": {
+                "summary": {
+                    "name": "MICHAEL Michael Kors Plus Size Faux-Leather-Trim Belted Coat",
+                    "productURL": "http://www1.macys.com/shop/product/michael-michael-kors-plus-size-faux-leather-trim-belted-coat?ID=6497246",
+                    "canonicalProductUrl": "http://www1.macys.com/shop/product/michael-michael-kors-plus-size-faux-leather-trim-belted-coat?ID=6497246",
+                    "description": "Sleek faux-leather details enhance the soft, cozy style of this plus size coat from MICHAEL Michael Kors. ",
+                    "typeName": "COAT",
+                    "available": true,
+                    "productStartDays": 164,
+                    "isNew": false,
+                    "taxwareCode": 0,
+                    "productGroup": false,
+                    "checkInStoreEligibility": false,
+                    "maxQuantity": 6,
+                    "bullets": [
+                        "Mid-length; approx. length: 35\" from center back to hem",
+                        "Removable hood; standard collar; zipper front with snap-button overlay",
+                        "Faux-leather details at shoulders; slit at back hem",
+                        "Slit pockets at hips with faux-leather trim; zip pocket at left chest",
+                        "Long sleeves with faux-leather details at cuffs",
+                        "Lined",
+                        "Shell: wool/polyester/acrylic; lining & faux leather: polyester",
+                        "Dry clean",
+                        "Imported"
+                    ],
+                    "comparable": true,
+                    "active": true,
+                    "defaultCategoryId": 269,
+                    "giftWrappable": true,
+                    "giftWrapId": 0,
+                    "visible": true,
+                    "clearanceStartDays": 17957,
+                    "countryEligible": true,
+                    "primaryPortraitSource": "10287883_fpx.tif",
+                    "brand": "Michael Kors",
+                    "itemAvailability": false,
+                    "hasBopsOnlyUpcs": false
+                },
+                "price": {
+                    "retail": {
+                        "pricelabel": "Now",
+                        "pricevalue": {
+                            "low": 199.99
+                        }
+                    },
+                    "original": {
+                        "pricelabel": "Orig.",
+                        "pricevalue": {
+                            "low": 340
+                        }
+                    },
+                    "pricetype": 7,
+                    "onsale": true,
+                    "onEdv": false,
+                    "pricingpolicy": "/catalog/product/pricingpolicy.ognc?fpriceTypeId=7&daysInC=17957&ID=6497246",
+                    "pricingpolicyText": "Limited quantities, while supplies last. Intermediate markdowns may have been taken.\n\"Regular\" (REG.) and \"Original\" (ORIG.) prices are offering prices. That means we offered the merchandise in our stores or on macys.com at those prices; however, we may not have sold the item at that price. So, the savings we show from these prices may not be based on actual sales of the item. Some \"Original\" (ORIG.) prices may not have been in effect during the past 90 days.",
+                    "percentageOff": 0,
+                    "percentageOffHigh": 0
+                },
+                "SizeMap": [
+                    {
+                        "sizeid": 4,
+                        "sizenormal": "0X",
+                        "sequenceNumber": 5435
+                    },
+                    {
+                        "sizeid": 1,
+                        "sizenormal": "1X",
+                        "sequenceNumber": 6390
+                    },
+                    {
+                        "sizeid": 2,
+                        "sizenormal": "2X",
+                        "sequenceNumber": 8000
+                    },
+                    {
+                        "sizeid": 3,
+                        "sizenormal": "3X",
+                        "sequenceNumber": 9800
+                    }
+                ]
+            }
+        }
+    ]
