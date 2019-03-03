@@ -32,6 +32,8 @@ export default function(state = initialState, action) {
         products: [...state.products.slice().concat(products)],
         nextId: newId
       };
+    case "CLEAR_STATE":
+      return initialState;
     default:
       return state;
   }

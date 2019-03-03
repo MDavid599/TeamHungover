@@ -1,10 +1,5 @@
 const initialState = {
-  measurements: [
-    { date: "12/1/19", bust: 30, waist: 28, hips: 32 },
-    { date: "15/1/19", bust: 29, waist: 27, hips: 30 },
-    { date: "31/1/19", bust: 31, waist: 29, hips: 32 },
-    { date: "12/2/19", bust: 29, waist: 25, hips: 20 }
-  ]
+  measurements: []
 };
 
 export const addMeasurement = measurement => {
@@ -27,6 +22,8 @@ export default function(state = initialState, action) {
         ...state,
         measurements: [...state.measurements, action.measurement]
       };
+    case "CLEAR_STATE":
+      return initialState;
     default:
       return state;
       console.error("missing case");
