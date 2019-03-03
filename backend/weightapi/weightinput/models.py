@@ -49,6 +49,34 @@ class User(models.Model):
     def __str__(self):
         return self.name
 
+    def get_present_recommendations(self):
+        top_result = Cloth.objects.filter(
+            body_size.lower_waist = 0,
+            body_size.lower_hips = 0
+        ).exclude(
+            body_size.lower_bust > self.body_size.lower_bust + 0.5,
+            body_size.upper_bust + 0.5 < self.body_size.upper_bust
+        )
+        bottom_result = Cloth.objects.filter(
+            body_size.lower_bust = 0
+        ).exclude(
+            body_size.lower_waist > self.body_size.lower_waist + 0.5,
+            body_size.upper_waist + 0.5 < self.body_size.upper_waist,
+            body_size.lower_hips > self.body_size.lower_hips + 0.5,
+            body_size.upper_hips + 0.5 < self.body_size.upper_hips
+        )
+        dress_result = Cloth.objects.exclude(
+            body_size.lower_bust > self.body_size.lower_bust + 0.5,
+            body_size.upper_bust + 0.5 < self.body_size.upper_bust,
+            body_size.lower_waist > self.body_size.lower_waist + 0.5,
+            body_size.upper_waist + 0.5 < self.body_size.upper_waist,
+            body_size.lower_hips > self.body_size.lower_hips + 0.5,
+            body_size.upper_hips + 0.5 < self.body_size.upper_hips
+        )
+
+        return [dress_result, top_result, bottom_result]
+
+
 class SizeHistory(models.Model):
     user = models.ForeignKey(
         'User',
