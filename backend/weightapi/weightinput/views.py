@@ -1,11 +1,20 @@
-from .models import BodySize, User
+from .models import BodySize, SizeHistory, User
 import json 
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 
+User.objects().all().delete()
+User.objects.create(
+    email="a",
+    password="a",
+    name="a",
+    body_size=body_size
+)
+#SizeHistory.objects.create(
+
+#)
 
 def api_recommendation(request):
     data = json.load(request.body)
-    User.objects().all().delete()
     body_size = BodySize.objects.filter(
         lower_bust = 32,
         upper_bust = 32,
@@ -25,12 +34,6 @@ def api_recommendation(request):
         )
     else:
         body_size = body_size[0]
-    User.objects.create(
-        email="a",
-        password="a",
-        name="a",
-        body_size=body_size
-    )
     a = User.objects.get(name="a")
     top_result, bottom_result, dress_result = a.get_present_recommendations()
 
@@ -58,3 +61,7 @@ def api_history(request):
  { date: "15/1/19", bust: 29, waist: 27, hips: 30 },
  { date: "31/1/19", bust: 31, waist: 29, hips: 32 },
  { date: "12/2/19", bust: 29, waist: 25, hips: 20 }]})
+
+ def api_add_history(request):
+     data = json.load(request.body)
+     return HttpResponse(status_code = 200)
