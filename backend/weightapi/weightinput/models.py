@@ -59,7 +59,7 @@ class User(models.Model):
             body_size__upper_bust__lt= self.body_size.upper_bust - 0.5
         )
         bottom_result = Cloth.objects.all().filter(
-            body_size__lower_bust = 0
+            body_size__upper_bust = 0
         ).exclude(
             body_size__lower_waist__gt= self.body_size.lower_waist + 0.5
         ).exclude(
@@ -83,7 +83,7 @@ class User(models.Model):
             body_size__upper_hips__lt= self.body_size.upper_hips-0.5
         )
 
-        return [dress_result, top_result, bottom_result]
+        return [top_result, bottom_result, dress_result]
 
 
 class SizeHistory(models.Model):

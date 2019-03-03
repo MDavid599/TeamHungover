@@ -13,22 +13,22 @@ class Command(BaseCommand):
 
 def check_current_recommendation():
     body_size = BodySize.objects.filter(
-        lower_bust = 36.5,
-        upper_bust = 36.5,
-        lower_waist = 28.5,
-        upper_waist = 28.5,
-        lower_hips = 40,
-        upper_hips = 40
+        lower_bust = 32,
+        upper_bust = 32,
+        lower_waist = 24,
+        upper_waist = 24,
+        lower_hips = 36,
+        upper_hips = 36
     )
     if not len(body_size):
         print("no data")
         body_size = BodySize.objects.create(
-            lower_bust =36.5,
-            upper_bust = 36.5,
-            lower_waist = 28.5,
-            upper_waist = 28.5,
-            lower_hips = 40,
-            upper_hips = 40
+            lower_bust =32,
+            upper_bust = 32,
+            lower_waist = 24,
+            upper_waist = 24,
+            lower_hips = 36,
+            upper_hips = 36
         )
     else:
         print("data exist")
