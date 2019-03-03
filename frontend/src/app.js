@@ -3,12 +3,13 @@ import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyles from "./components/styles/global";
 import Navbar from "./components/navbar";
-import Homepage from "./components/homepage";
+import Measure from "./components/measurement-input";
 import Results from "./components/results";
 import Signup from "./components/signup";
 import Login from "./components/login";
 import History from "./components/history";
 import NotFound from "./components/404";
+import Homepage from "./components/homepage";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route component={Homepage} exact path="/" />
+              <Route component={Measure} path="/measure" />
               <Route component={Results} path="/results" />
               <Route component={History} path="/history" />
               <Route component={Signup} path="/signup" />

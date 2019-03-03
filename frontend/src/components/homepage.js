@@ -1,78 +1,54 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Container from "./styles/container";
-import BodyRepresentation from "./body";
-import MeasurementForm from "./measurement-form";
-import { Spring, animated } from "react-spring/renderprops";
+import headerImg from "../static/header.jpg";
+import Button from "./styles/button";
+import Row from "./styles/row";
 
 const Wrapper = styled.div`
-  width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-areas:
-    "left"
-    "right";
-  .left {
-    grid-area: left;
-    display: none;
-  }
-  .right {
-    grid-area: right;
-  }
-  @media (min-width: 800px) {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "left right";
-    .left {
-      display: inherit;
-    }
-  }
-  .form-label {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(${headerImg});
+  background-size: cover;
+  color: #eee;
+  .link-button {
+    cursor: pointer;
   }
 `;
 
-class Homepage extends React.Component {
-  state = {
-    bust: 0,
-    waist: 0,
-    hips: 0,
-    gender: "Male"
-  };
-  handleFormChange = state => {
-    this.setState(state);
-  };
-  render() {
-    const { bust, waist, hips } = this.state;
-    const radii = [bust, waist, hips];
-    return (
-      <Container>
-        <Wrapper>
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} native>
-            {props => (
-              <animated.div className="left" style={props}>
-                <BodyRepresentation radii={radii} />
-              </animated.div>
-            )}
-          </Spring>
-          <Spring
-            from={{ opacity: 0, transform: "translateY(50px)" }}
-            to={{ opacity: 1, transform: "translateY(0px)" }}
-          >
-            {props => (
-              <animated.div className="right" style={props} native>
-                <MeasurementForm
-                  onSubmit={values => console.log(values)}
-                  onChange={this.handleFormChange}
-                />
-              </animated.div>
-            )}
-          </Spring>
-        </Wrapper>
-      </Container>
-    );
-  }
-}
+const Cover = styled.div`
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Homepage = () => (
+  <Wrapper>
+    <Container>
+      <Cover>
+        <h1>Welcome to Fit Future</h1>
+        <p>A site to help you pick clothing for the future you</p>
+        <Row>
+          <Link to="/signup">
+            <Button role="link" className="link-button">
+              Create Account
+            </Button>
+          </Link>
+          <Link to="/login">
+            <Button role="link" className="link-button">
+              Login
+            </Button>
+          </Link>
+        </Row>
+      </Cover>
+    </Container>
+  </Wrapper>
+);
 
 export default Homepage;
