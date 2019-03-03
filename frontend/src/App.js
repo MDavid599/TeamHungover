@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyles from "./components/styles/global";
+import Navbar from "./components/navbar";
 import Homepage from "./components/homepage";
 import Results from "./components/results";
 import History from "./components/history";
@@ -18,11 +19,14 @@ class App extends Component {
         </Helmet>
         <GlobalStyles />
         <Router>
-          <Switch>
-            <Route component={Homepage} exact path="/" />
-            <Route component={Results} path="/results" />
-            <Route component={History} path="/history" />
-          </Switch>
+          <>
+            <Navbar />
+            <Switch>
+              <Route component={Homepage} exact path="/" />
+              <Route component={Results} path="/results" />
+              <Route component={History} path="/history" />
+            </Switch>
+          </>
         </Router>
       </>
     );
