@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Container from "./styles/container";
 import Button from "./styles/button";
 import Form from "./styles/form";
-import { Label } from "./text-input";
+import Label from "./styles/text-input";
 
 const Wrapper = styled.div`
   max-width: 500px;
