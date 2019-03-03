@@ -1,5 +1,5 @@
 from django.test import TestCase
-from models import User, BodySize, Cloth
+from .models import User, BodySize, Cloth
 # Create your tests here.
 class UserTestCase(TestCase):
     def setUp(self):

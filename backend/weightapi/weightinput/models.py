@@ -50,28 +50,28 @@ class User(models.Model):
         return self.name
 
     def get_present_recommendations(self):
-        top_result = Cloth.objects.filter(
-            body_size.lower_waist = 0,
-            body_size.lower_hips = 0
+        top_result = Cloth.objects.all().filter(
+            body_size__lower_waist = 0,
+            body_size__lower_hips = 0
         ).exclude(
-            body_size.lower_bust > self.body_size.lower_bust + 0.5,
-            body_size.upper_bust + 0.5 < self.body_size.upper_bust
+            body_size__lower_bust__gt= self.body_size.lower_bust + 0.5,
+            body_size__upper_bust__lt= self.body_size.upper_bust - 0.5
         )
-        bottom_result = Cloth.objects.filter(
-            body_size.lower_bust = 0
+        bottom_result = Cloth.objects.all().filter(
+            body_size__lower_bust = 0
         ).exclude(
-            body_size.lower_waist > self.body_size.lower_waist + 0.5,
-            body_size.upper_waist + 0.5 < self.body_size.upper_waist,
-            body_size.lower_hips > self.body_size.lower_hips + 0.5,
-            body_size.upper_hips + 0.5 < self.body_size.upper_hips
+            body_size__lower_waist__gt= self.body_size.lower_waist + 0.5,
+            body_size__upper_waist__lt= self.body_size.upper_waist-0.5,
+            body_size__lower_hips__gt= self.body_size.lower_hips + 0.5,
+            body_size__upper_hips__lt= self.body_size.upper_hips-0.5
         )
-        dress_result = Cloth.objects.exclude(
-            body_size.lower_bust > self.body_size.lower_bust + 0.5,
-            body_size.upper_bust + 0.5 < self.body_size.upper_bust,
-            body_size.lower_waist > self.body_size.lower_waist + 0.5,
-            body_size.upper_waist + 0.5 < self.body_size.upper_waist,
-            body_size.lower_hips > self.body_size.lower_hips + 0.5,
-            body_size.upper_hips + 0.5 < self.body_size.upper_hips
+        dress_result = Cloth.objects.all().exclude(
+            body_size__lower_bust__gt= self.body_size.lower_bust + 0.5,
+            body_size__upper_bust__lt= self.body_size.upper_bust-0.5,
+            body_size__lower_waist__gt= self.body_size.lower_waist + 0.5,
+            body_size__upper_waist__lt= self.body_size.upper_waist-0.5,
+            body_size__lower_hips__gt= self.body_size.lower_hips + 0.5,
+            body_size__upper_hips__lt= self.body_size.upper_hips-0.5
         )
 
         return [dress_result, top_result, bottom_result]
@@ -107,7 +107,7 @@ class Cloth(models.Model):
     image_url = models.TextField()
     
     def __str__(self):
-        return "{0} {1}".format(self.designer, self.body_size)
+        return "{0} {1}\n{2}".format(self.designer, self.name, self.body_size)
 
 class SizeCategory(models.Model):
     designer = models.ForeignKey(

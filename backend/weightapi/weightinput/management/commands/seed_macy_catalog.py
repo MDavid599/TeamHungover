@@ -60,6 +60,14 @@ def store_macy_catalog():
             if not len(largest_size):
                 continue
 
+            if "typeName" in datum["productDetails"]["summary"]:
+                if datum["productDetails"]["summary"]["typeName"] == "TOP":
+                    smallest_size.filter(category__contains="top")
+                    largest_size.filter(category__contains="top")
+                elif datum["productDetails"]["summary"]["typeName"] == "SHORTS":
+                    smallest_size.filter(category__contains="shorts")
+                    largest_size.filter(category__contains="shorts")
+
             body_size = BodySize.objects.filter(
                 lower_bust = smallest_size[0].lower_bust,
                 upper_bust = largest_size[0].upper_bust,

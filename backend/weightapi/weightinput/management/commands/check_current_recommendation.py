@@ -13,22 +13,22 @@ class Command(BaseCommand):
 
 def check_current_recommendation():
     body_size = BodySize.objects.filter(
-        lower_bust = 28,
-        upper_bust = 28,
-        lower_waist = 28,
-        upper_waist = 28,
-        lower_hips = 28,
-        upper_hips = 28
+        lower_bust = 36.5,
+        upper_bust = 36.5,
+        lower_waist = 28.5,
+        upper_waist = 28.5,
+        lower_hips = 40,
+        upper_hips = 40
     )
     if not len(body_size):
         print("no data")
         body_size = BodySize.objects.create(
-            lower_bust = 28,
-            upper_bust = 28,
-            lower_waist = 28,
-            upper_waist = 28,
-            lower_hips = 28,
-            upper_hips = 28
+            lower_bust =36.5,
+            upper_bust = 36.5,
+            lower_waist = 28.5,
+            upper_waist = 28.5,
+            lower_hips = 40,
+            upper_hips = 40
         )
     else:
         print("data exist")
@@ -50,8 +50,10 @@ def check_current_recommendation():
     print(dress_result)
 
 def clear_data():
-    User.objects.get(email="a").delete()
+    if len(User.objects.filter(email="a")):
+            User.objects.filter(email="a").delete()
 
 def run_check(self, mode):
+    clear_data()
     check_current_recommendation()
     clear_data()
