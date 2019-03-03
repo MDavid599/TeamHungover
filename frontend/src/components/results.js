@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Container from "./styles/container";
 import Item from "./item";
+import { connect } from "react-redux";
 
 const Wrapper = styled.div`
   display: grid;
@@ -11,49 +12,23 @@ const Wrapper = styled.div`
 
 class Results extends React.Component {
   render() {
+    const { products } = this.props;
+    console.log(products);
     return (
       <Container>
         <h1>Results:</h1>
         <Wrapper>
-          <Item
-            title="An Item"
-            photo="http://img.our-dress.com/images/dress/4967/Royal-Blue-Halter-Neckline-Asymmetrical-Full-Length-Pleated-Ball-Gown-Quinceanera-Dresses-SG2806-03.jpg"
-            price="$120.00"
-            size="S"
-            link="https://www.google.com"
-          />
-          <Item
-            title="An Item"
-            photo="http://img.our-dress.com/images/dress/4967/Royal-Blue-Halter-Neckline-Asymmetrical-Full-Length-Pleated-Ball-Gown-Quinceanera-Dresses-SG2806-03.jpg"
-            price="$120.00"
-            size="S"
-            link="https://www.google.com"
-          />
-          <Item
-            title="An Item"
-            photo="http://img.our-dress.com/images/dress/4967/Royal-Blue-Halter-Neckline-Asymmetrical-Full-Length-Pleated-Ball-Gown-Quinceanera-Dresses-SG2806-03.jpg"
-            price="$120.00"
-            size="S"
-            link="https://www.google.com"
-          />
-          <Item
-            title="An Item"
-            photo="http://img.our-dress.com/images/dress/4967/Royal-Blue-Halter-Neckline-Asymmetrical-Full-Length-Pleated-Ball-Gown-Quinceanera-Dresses-SG2806-03.jpg"
-            price="$120.00"
-            size="S"
-            link="https://www.google.com"
-          />
-          <Item
-            title="An Item"
-            photo="http://img.our-dress.com/images/dress/4967/Royal-Blue-Halter-Neckline-Asymmetrical-Full-Length-Pleated-Ball-Gown-Quinceanera-Dresses-SG2806-03.jpg"
-            price="$120.00"
-            size="S"
-            link="https://www.google.com"
-          />
+          {products.map(product => (
+            <Item {...product} />
+          ))}
         </Wrapper>
       </Container>
     );
   }
 }
 
-export default Results;
+const mapStateToProps = ({ products }) => ({
+  products: products.products
+});
+
+export default connect(mapStateToProps)(Results);

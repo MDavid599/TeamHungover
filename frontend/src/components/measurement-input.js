@@ -1,9 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import { Spring, animated } from "react-spring/renderprops";
+import { connect } from "react-redux";
+import { addMeasurement } from "../redux/measurements";
 import Container from "./styles/container";
 import BodyRepresentation from "./body";
 import MeasurementForm from "./measurement-form";
-import { Spring, animated } from "react-spring/renderprops";
+import Error from "./error";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -33,21 +36,29 @@ const Wrapper = styled.div`
   }
 `;
 
-class Homepage extends React.Component {
+class MeasureInput extends React.Component {
   state = {
     bust: 0,
     waist: 0,
     hips: 0,
-    gender: "Male"
+    gender: "Male",
+    successMessage: null,
+    error: null
   };
   handleFormChange = state => {
     this.setState(state);
+  };
+  handleFormSubmit = state => {
+    this.props.addMeasurement(state);
+    this.setState({ successMessage: "Measurement Logged!" });
   };
   render() {
     const { bust, waist, hips } = this.state;
     const radii = [bust, waist, hips];
     return (
       <Container>
+        <Error error={this.state.error} />
+        <Error error={this.state.successMessage} success />
         <Wrapper>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} native>
             {props => (
@@ -63,7 +74,7 @@ class Homepage extends React.Component {
             {props => (
               <animated.div className="right" style={props} native>
                 <MeasurementForm
-                  onSubmit={values => console.log(values)}
+                  onSubmit={this.handleFormSubmit}
                   onChange={this.handleFormChange}
                 />
               </animated.div>
@@ -75,4 +86,13 @@ class Homepage extends React.Component {
   }
 }
 
-export default Homepage;
+const mapStateToProps = ({ measurements }) => ({
+  measurements
+});
+
+const mapDispatchToProps = { addMeasurement };
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(MeasureInput);
