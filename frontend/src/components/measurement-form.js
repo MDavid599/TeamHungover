@@ -57,6 +57,7 @@ class MeasurementForm extends React.Component {
             name="bust"
             type="number"
             step="1"
+            min="0"
             onChange={this.handleInputFieldChange}
           />
           <TextInput
@@ -65,6 +66,7 @@ class MeasurementForm extends React.Component {
             name="waist"
             type="number"
             step="1"
+            min="0"
             onChange={this.handleInputFieldChange}
           />
           <TextInput
@@ -73,6 +75,7 @@ class MeasurementForm extends React.Component {
             name="hips"
             type="number"
             step="1"
+            min="0"
             onChange={this.handleInputFieldChange}
           />
           <Button type="submit">Show matching products</Button>
