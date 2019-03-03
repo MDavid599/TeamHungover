@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import Container from "./styles/container";
 import Button from "./styles/button";
 import Form from "./styles/form";
@@ -33,6 +33,7 @@ class Login extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
     this.props.onSubmit && this.props.onSubmit(this.state);
+    this.props.history.push("/measure");
   };
 
   render() {
@@ -74,4 +75,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default withRouter(Login);
