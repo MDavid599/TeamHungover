@@ -1,11 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Container from "./styles/container";
-import Select from "./select";
-import Form from "./styles/form";
-import TextInput from "./text-input";
-import Button from "./styles/button";
 import BodyRepresentation from "./body";
+import MeasurementForm from "./measurement-form";
 
 const Wrapper = styled.div`
   display: grid;
@@ -14,6 +11,7 @@ const Wrapper = styled.div`
     "right";
   .left {
     grid-area: left;
+    display: none;
   }
   .right {
     grid-area: right;
@@ -21,6 +19,9 @@ const Wrapper = styled.div`
   @media (min-width: 800px) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "left right";
+    .left {
+      display: inherit;
+    }
   }
   .form-label {
     font-size: 1.2rem;
@@ -29,35 +30,35 @@ const Wrapper = styled.div`
   }
 `;
 
-const Homepage = () => (
-  <Container>
-    <Wrapper>
-      <div className="left">
-        <BodyRepresentation radii={[200, 300, 500]} />
-      </div>
-      <div className="right">
-        <h1>Find your perfect size:</h1>
-        <Form>
-          <fieldset>
-            <label>
-              <span className="form-label">Gender:</span>
-              <Select options={["Male", "Female"]} />
-            </label>
-            <TextInput
-              placeholderText="Bust size in inches"
-              labelText="Bust/Chest:"
+class Homepage extends React.Component {
+  state = {
+    bust: 0,
+    waist: 0,
+    hips: 0,
+    gender: "Male"
+  };
+  handleFormChange = state => {
+    this.setState(state);
+  };
+  render() {
+    const { bust, waist, hips } = this.state;
+    const radii = [bust, waist, hips];
+    return (
+      <Container>
+        <Wrapper>
+          <div className="left">
+            <BodyRepresentation radii={radii} />
+          </div>
+          <div className="right">
+            <MeasurementForm
+              onSubmit={values => console.log(values)}
+              onChange={this.handleFormChange}
             />
-            <TextInput
-              placeholderText="Waist size in inches"
-              labelText="Waist:"
-            />
-            <TextInput placeholderText="Hip size in inches" labelText="Hips:" />
-            <Button>Show matching products</Button>
-          </fieldset>
-        </Form>
-      </div>
-    </Wrapper>
-  </Container>
-);
+          </div>
+        </Wrapper>
+      </Container>
+    );
+  }
+}
 
 export default Homepage;

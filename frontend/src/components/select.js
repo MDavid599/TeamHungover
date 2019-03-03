@@ -5,13 +5,15 @@ import Row from "./styles/row";
 
 class Select extends React.Component {
   static propTypes = {
-    options: PropTypes.array
+    options: PropTypes.array,
+    onChange: PropTypes.func
   };
   state = {
     selected: 0
   };
   radioButtonClicked = index => {
     this.setState({ selected: index });
+    this.props.onChange && this.props.onChange(this.props.options[index]);
   };
   render() {
     const { selected } = this.state;

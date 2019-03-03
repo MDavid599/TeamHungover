@@ -14,11 +14,12 @@ const Label = styled.label`
   }
 `;
 
+/**
+ * All props are passed to the input
+ */
 class TextInput extends React.Component {
   static propTypes = {
-    labelText: PropTypes.string,
-    placeholderText: PropTypes.string,
-    onChange: PropTypes.func
+    labelText: PropTypes.string
   };
   state = {
     value: ""
@@ -27,7 +28,7 @@ class TextInput extends React.Component {
     this.setState({ value: e.target.value });
   };
   render() {
-    const { placeholderText, labelText } = this.props;
+    const { placeholderText, labelText, ...rest } = this.props;
     return (
       <Label>
         {labelText}
@@ -35,6 +36,7 @@ class TextInput extends React.Component {
           type="text"
           placeholder={placeholderText}
           onChange={this.handleChange}
+          {...rest}
         />
       </Label>
     );
