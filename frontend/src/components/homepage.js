@@ -5,6 +5,7 @@ import Select from "./select";
 import Form from "./styles/form";
 import TextInput from "./text-input";
 import Button from "./styles/button";
+import BodyRepresentation from "./body";
 
 const Wrapper = styled.div`
   display: grid;
@@ -31,6 +32,9 @@ const Wrapper = styled.div`
 const Homepage = () => (
   <Container>
     <Wrapper>
+      <div className="left">
+        <BodyRepresentation radii={[200, 300, 500]} />
+      </div>
       <div className="right">
         <h1>Find your perfect size:</h1>
         <Form>

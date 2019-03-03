@@ -3,6 +3,8 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Raleway', sans-serif;
+        width: 100%;
+        height: 100%;
     }
     html {
         -webkit-box-sizing: border-box;
