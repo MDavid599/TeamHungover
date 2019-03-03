@@ -32,17 +32,19 @@ def store_designer_sizes():
                 update_category = True
             else:
                 data = line.splt()
-                SizeCategory(
+                size_category = SizeCategory(
                     designer=designer.id,
-                    category_name = category
-                    size = data[0]
-                    lower_bust = float(data[1])
-                    upper_bust = float(data[2])
-                    lower_waist = float(data[3])
-                    upper_waist = float(data[4])
-                    lower_hips = float(data[5])
+                    category_name = category,
+                    size = data[0],
+                    lower_bust = float(data[1]),
+                    upper_bust = float(data[2]),
+                    lower_waist = float(data[3]),
+                    upper_waist = float(data[4]),
+                    lower_hips = float(data[5]),
                     upper_hips = float(data[6])
                 )
+                print(size_category)
+
 
 
 
