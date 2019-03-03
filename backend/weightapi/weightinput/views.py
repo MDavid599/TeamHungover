@@ -1,69 +1,60 @@
-from django.shortcuts import render
-from django.contrib.auth import authenticate, login, logout
 from .models import BodySize, User
 import json 
-# Create your views here.
+from django.http import JsonResponse
 
-def api_authenticate(request):
-    if request.user.is_authenticated:
-        return HttpResponse(status=200)
-    else:
-        return HttpResponse(status=404)
 
-def api_register(request):
+def api_recommendation(request):
     data = json.load(request.body)
-    if 'email' not in data:
-        return HttpResponse(status=404)
-    if 'name' not in data:
-        return HttpResponse(status=404)
-    if 'password' not in data:
-        return HttpResponse(status=404)   
-    email = data['email']
-    name = data['name']
-    password = data['password']
-    body_size = BodySize.objects().filter(
-        lower_bust = 28,
-        upper_bust = 28,
-        lower_waist = 28,
-        upper_waist = 28,
-        lower_hips = 28,
-        upper_hips = 28
+    User.objects().all().delete()
+    body_size = BodySize.objects.filter(
+        lower_bust = 32,
+        upper_bust = 32,
+        lower_waist = 24,
+        upper_waist = 24,
+        lower_hips = 36,
+        upper_hips = 36
     )
     if not len(body_size):
-        body_size = BodySize(
-            lower_bust = 28,
-            upper_bust = 28,
-            lower_waist = 28,
-            upper_waist = 28,
-            lower_hips = 28,
-            upper_hips = 28
+        body_size = BodySize.objects.create(
+            lower_bust =32,
+            upper_bust = 32,
+            lower_waist = 24,
+            upper_waist = 24,
+            lower_hips = 36,
+            upper_hips = 36
         )
     else:
         body_size = body_size[0]
-    try:
-        User.objects().create(
-            email = email,
-            name = name, 
-            password = password,
-            body_size = body_size
-        )
-        login(request, user)
-        return HttpResponse(status=200)
-    catch:
-        return HttpResponse(status=404)
-    
-    
+    User.objects.create(
+        email="a",
+        password="a",
+        name="a",
+        body_size=body_size
+    )
+    a = User.objects.get(name="a")
+    top_result, bottom_result, dress_result = a.get_present_recommendations()
 
-def api_login(request):
-    username = json.load(request.body)['email']
-    password = json.load(request.body)['password']
-    user = authenticate(request, username=username, password=password)
-    if user is not None:
-        login(request, user)
-        return HttpResponse(status=200)
-    else:
-        return HttpResponse(status=404)
+    items = []
+    for result in [top_result, bottom_result, dress_result]:
+    for item in result:
+        i = {
+            "Item": {
+                "propTypes": {
+                    "title": item.name,
+                    "photo": item.image_url,
+                    "size":item.body_size.__str___,
+                    "price":item.price,
+                    "link": item.link_url
+                }
+            }
+        }
+        items.push(i)
+    return JsonResponse({
+        items
+    })
 
-def api_logout(request):
-    logout(request)
-    return HttpResponse(status=200)
+def api_history(request):
+    return JsonResponse({[{ date: "12/1/19", bust: 30, waist: 28, hips: 32 },
+ { date: "15/1/19", bust: 29, waist: 27, hips: 30 },
+ { date: "31/1/19", bust: 31, waist: 29, hips: 32 },
+ { date: "12/2/19", bust: 29, waist: 25, hips: 20 }]})
