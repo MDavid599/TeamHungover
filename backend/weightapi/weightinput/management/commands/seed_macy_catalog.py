@@ -76,14 +76,21 @@ def store_macy_catalog():
                 elif datum["productDetails"]["summary"]["typeName"] == "DRESS":
                     smallest_size.filter(category__contains="dress")
                     largest_size.filter(category__contains="dress")
+            upper_waist = largest_size[0].upper_waist
+            if (smallest_size[0].lower_waist > 0 and upper_waist < 1):
+                upper_waist = smallest_size
+            
+            upper_hips = largest_size[0].upper_hips
+            if smallest_size[0].lower_hips > 0 and upper_hips < 1:
+                upper_hips = smallest_size[0].lower_hips
 
             body_size = BodySize.objects.filter(
                 lower_bust = smallest_size[0].lower_bust,
                 upper_bust = largest_size[0].upper_bust,
                 lower_waist = smallest_size[0].lower_waist,
-                upper_waist = largest_size[0].upper_waist,
+                upper_waist = upper_waist,
                 lower_hips = smallest_size[0].lower_hips,
-                upper_hips = largest_size[0].upper_hips
+                upper_hips = upper_hips
             )
             price_value = 0
             if "original" in datum["productDetails"]["price"]:
@@ -98,9 +105,9 @@ def store_macy_catalog():
                     lower_bust = smallest_size[0].lower_bust,
                     upper_bust = largest_size[0].upper_bust,
                     lower_waist = smallest_size[0].lower_waist,
-                    upper_waist = largest_size[0].upper_waist,
+                    upper_waist = upper_waist,
                     lower_hips = smallest_size[0].lower_hips,
-                    upper_hips = largest_size[0].upper_hips
+                    upper_hips = upper_hips
                 )
                 body_size.save()
                 Cloth.objects.create(
