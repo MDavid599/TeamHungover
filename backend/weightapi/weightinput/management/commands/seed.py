@@ -1,9 +1,8 @@
 from django.core.management.base import BaseCommand
 import os
 import sys
-sys.path.insert(0, '/TeamHungover/backend/weightapi/weightinput')
-
-import models
+sys.path.append('../..')
+from models import SizeCategory, Designer
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('--mode', type=str, help="Mode")
