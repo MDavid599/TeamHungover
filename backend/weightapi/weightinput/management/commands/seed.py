@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 import os
 import sys
-from ../../models import SizeCategory, Designer
+from ...models import SizeCategory, Designer
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('--mode', type=str, help="Mode")
@@ -14,29 +14,31 @@ class Command(BaseCommand):
 
 def clear_data():
     for db in [Designer, SizeCategory]:
+        print(db.objects.all())
         db.objects.all().delete()
     
 
-def store_designer_sizes():
-
-    
-    for filename in os.listdir('./SizeCharter'):
+def store_designer_sizes(): 
+    for filename in os.listdir('./weightinput/management/commands/SizeCharter'):
         designer = Designer(
             name = filename
         )
         designer.save()
+        print(designer.pk)
         category = ''
         update_category = True
-        for line in open('./SizeCharter/' + filename,"r"):
+        for line in open('./weightinput/management/commands/SizeCharter/' + filename):
             line = line.rstrip('\n')
             if update_category:
                 category = line
-            elif line.length == 0:
+                update_category = False
+            elif len(line) == 0:
                 update_category = True
+                print("here")
             else:
-                data = line.splt()
+                data = line.split()
                 size_category = SizeCategory(
-                    designer=designer.id,
+                    designer=designer,
                     category_name = category,
                     size = data[0],
                     lower_bust = float(data[1]),
@@ -62,7 +64,5 @@ def run_seed(self, mode):
     """
     # Clear data from tables
     clear_data()
-    if mode == MODE_CLEAR:
-        return
 
     store_designer_sizes()
