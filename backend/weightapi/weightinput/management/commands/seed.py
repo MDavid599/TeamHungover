@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 import os
-from './../../../model' import Designer, SizeCategory
+import model
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('--mode', type=str, help="Mode")
