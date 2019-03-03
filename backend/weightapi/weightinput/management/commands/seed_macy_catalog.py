@@ -73,8 +73,8 @@ def store_macy_catalog():
                     smallest_size.filter(category_name__contains="jacket")
                     largest_size.filter(category_name__contains="jacket")
                 elif datum["productDetails"]["summary"]["typeName"] == "DRESS":
-                    smallest_size.filter(category__contains="dress")
-                    largest_size.filter(category__contains="dress")
+                    smallest_size.filter(category_name__contains="dress")
+                    largest_size.filter(category_name__contains="dress")
             upper_waist = largest_size[0].upper_waist
             if (smallest_size[0].lower_waist > 0 and upper_waist < 1):
                 upper_waist = smallest_size
@@ -119,6 +119,7 @@ def store_macy_catalog():
                     link_url = datum["productDetails"]["summary"]["productURL"],
                     image_url = image_url
                 )
+                cloth.save()
             else:
                 cloth = Cloth(
                     designer=designer,
@@ -130,7 +131,7 @@ def store_macy_catalog():
                     image_url = image_url
                 )
                 cloth.save()
-                print(cloth)
+            print(cloth)
 
 def clear_data():
     Cloth.objects.all().delete()
