@@ -74,6 +74,7 @@ class Cloth(models.Model):
     )
     store_item_id = models.CharField(max_length=255)
     name = models.CharField(max_length=255)
+    price = models.FloatField()
     link_url = models.TextField()
     image_url = models.TextField()
     
