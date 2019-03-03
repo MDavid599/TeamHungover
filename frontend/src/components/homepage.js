@@ -49,11 +49,11 @@ class Homepage extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} native>
             {props => (
-              <div className="left" style={props}>
+              <animated.div className="left" style={props}>
                 <BodyRepresentation radii={radii} />
-              </div>
+              </animated.div>
             )}
           </Spring>
           <Spring
@@ -61,12 +61,12 @@ class Homepage extends React.Component {
             to={{ opacity: 1, transform: "translateY(0px)" }}
           >
             {props => (
-              <div className="right" style={props}>
+              <animated.div className="right" style={props} native>
                 <MeasurementForm
                   onSubmit={values => console.log(values)}
                   onChange={this.handleFormChange}
                 />
-              </div>
+              </animated.div>
             )}
           </Spring>
         </Wrapper>

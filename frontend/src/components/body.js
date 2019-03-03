@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import max from "lodash/max";
+import { Spring, animated } from "react-spring/renderprops";
 
 const Wrapper = styled.div`
   height: 100%;
@@ -42,11 +43,11 @@ class Body extends React.Component {
   normalizedRadii = () => {
     const { radii } = this.props;
     const maxRadius = max(radii);
+    if (maxRadius <= 0) return radii;
     return radii.map(r => (r / maxRadius) * 100);
   };
   render() {
     let offsets = this.getCircleYOffsets();
-    console.log(offsets);
     let radii = this.normalizedRadii();
     return (
       <Wrapper>
@@ -67,16 +68,23 @@ class Body extends React.Component {
             mask="url(#circle-mask)"
           />
           <mask id="circle-mask" x="0" y="0" width="100%" height="100%">
-            {radii.map((radius, index) => (
-              <circle
-                cx="50%"
-                cy={offsets[index]}
-                stroke="black"
-                r={radius}
-                fill="white"
-                strokeWidth="0"
-              />
-            ))}
+            {radii.map(
+              (radius, index) =>
+                console.log(radius) || (
+                  <Spring from={{ r: 0 }} to={{ r: radius }} native>
+                    {props => (
+                      <animated.circle
+                        cx="50%"
+                        cy={offsets[index]}
+                        stroke="black"
+                        r={props.r}
+                        fill="white"
+                        strokeWidth="0"
+                      />
+                    )}
+                  </Spring>
+                )
+            )}
           </mask>
         </svg>
       </Wrapper>
