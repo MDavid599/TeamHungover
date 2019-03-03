@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from weightinput import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls'))
+    path('api-auth/', include('rest_framework.urls')),
+    path('api/register', views.api_register),
+    path('api/login', views.api_login),
+    path('api/authenticate', views.api_authenticate),
+    path('api/logout', views.api_logout)
 ]
