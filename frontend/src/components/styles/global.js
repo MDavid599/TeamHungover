@@ -24,6 +24,11 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         width: 100%;
     }
+    a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #007aff;
+  }
 `;
 
 export default GlobalStyle;

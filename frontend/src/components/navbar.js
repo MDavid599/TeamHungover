@@ -15,10 +15,6 @@ const Nav = styled.nav`
   justify-content: flex-end;
   align-items: center;
   a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #007aff;
-
     margin: 0 0.5rem;
   }
   .brand {

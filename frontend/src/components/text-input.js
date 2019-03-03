@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-const Label = styled.label`
+export const Label = styled.label`
   input {
     display: block;
     padding: 0.5rem;
