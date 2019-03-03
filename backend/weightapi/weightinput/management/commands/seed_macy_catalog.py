@@ -77,11 +77,11 @@ def store_macy_catalog():
                     largest_size.filter(category_name__contains="dress")
             upper_waist = largest_size[0].upper_waist
             if (smallest_size[0].lower_waist > 0 and upper_waist < 1):
-                upper_waist = smallest_size[0].lower_waist
+                upper_waist = smallest_size[0].lower_waist + 8
             
             upper_hips = largest_size[0].upper_hips
             if smallest_size[0].lower_hips > 0 and upper_hips < 1:
-                upper_hips = smallest_size[0].lower_hips
+                upper_hips = smallest_size[0].lower_hips + 8
 
             body_size = BodySize.objects.filter(
                 lower_bust = smallest_size[0].lower_bust,
@@ -100,7 +100,7 @@ def store_macy_catalog():
             image_url = ""
             if "primaryPortraitSource" in datum["productDetails"]["summary"]:
                 image_url = datum["productDetails"]["summary"]["primaryPortraitSource"]
-            if not body_size.count:
+            if not len(body_size):
                 body_size = BodySize(
                     lower_bust = smallest_size[0].lower_bust,
                     upper_bust = largest_size[0].upper_bust,
