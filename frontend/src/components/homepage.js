@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Container from "./styles/container";
 import BodyRepresentation from "./body";
 import MeasurementForm from "./measurement-form";
+import { Spring, animated } from "react-spring/renderprops";
 
 const Wrapper = styled.div`
   width: 100%;
@@ -48,15 +49,26 @@ class Homepage extends React.Component {
     return (
       <Container>
         <Wrapper>
-          <div className="left">
-            <BodyRepresentation radii={radii} />
-          </div>
-          <div className="right">
-            <MeasurementForm
-              onSubmit={values => console.log(values)}
-              onChange={this.handleFormChange}
-            />
-          </div>
+          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            {props => (
+              <div className="left" style={props}>
+                <BodyRepresentation radii={radii} />
+              </div>
+            )}
+          </Spring>
+          <Spring
+            from={{ opacity: 0, transform: "translateY(50px)" }}
+            to={{ opacity: 1, transform: "translateY(0px)" }}
+          >
+            {props => (
+              <div className="right" style={props}>
+                <MeasurementForm
+                  onSubmit={values => console.log(values)}
+                  onChange={this.handleFormChange}
+                />
+              </div>
+            )}
+          </Spring>
         </Wrapper>
       </Container>
     );
