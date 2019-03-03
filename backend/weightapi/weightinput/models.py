@@ -72,6 +72,9 @@ class Cloth(models.Model):
         'BodySize',
         on_delete=models.CASCADE
     )
+    name = models.CharField(max_length=255)
+    link_url = models.TextField()
+    image_url = models.TextField()
     
     def __str__(self):
         return "{0} {1}".format(self.designer, self.body_size)
@@ -91,7 +94,7 @@ class SizeCategory(models.Model):
     upper_hips = models.FloatField(null=True)
 
     def __str__(self):
-        return "{0}: {1}\nsize: {2}\n{3} - {4}   {5} - {6}    {7} - {8}".format(
+        return "{0}: {1}\nsize: {2}\n{3} - {4}   {5} - {6}   {7} - {8}".format(
             self.designer.name,
             self.category_name,
             self.size,
