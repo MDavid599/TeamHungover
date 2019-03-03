@@ -7,7 +7,7 @@ const Table = styled.table`
   border: 1px #ddd solid;
   border-radius: 0.2rem;
   padding: 1rem;
-  margin-top: 5rem;
+  margin: 5rem auto;
   text-align: center;
   tr {
     margin: 0.2rem;
