@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Raleway', sans-serif;
         width: 100%;
         height: 100%;
+        overflow-x: hidden;
     }
     html {
         height: 100%;
